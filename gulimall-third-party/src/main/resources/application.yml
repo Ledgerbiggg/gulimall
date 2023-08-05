@@ -8,8 +8,8 @@ spring:
 
 aliyun:
   oss:
-    access_key_id: LTAI5tSdkdCeTKEY9Np7H3WH
-    access_key_secret: bJyOcffhbo8Kp1PTWSWO7QN6KTdv9k
+    access_key_id: 1
+    access_key_secret: 1
     endpoint: oss-cn-shenzhen.aliyuncs.com
     bucket_name: ledger-for-project
     dir: ledger/
