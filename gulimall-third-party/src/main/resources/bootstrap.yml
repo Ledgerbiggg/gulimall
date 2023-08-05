@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        file-extension: yml
+        group: gulimall-third-party
+        namespace: 469555d8-c31a-4808-9acc-64fe2bf07442
+        extension-configs:
+          - data-id: oss.yaml
+            group: dev
+            refresh: true
+
+  application:
+    name: gulimall-third-party
+server:
+  port: 9999
+

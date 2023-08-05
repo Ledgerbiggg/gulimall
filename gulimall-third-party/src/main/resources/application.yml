@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: gulimall-third-party
+
+aliyun:
+  oss:
+    access_key_id: LTAI5tSdkdCeTKEY9Np7H3WH
+    access_key_secret: bJyOcffhbo8Kp1PTWSWO7QN6KTdv9k
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    bucket_name: ledger-for-project
+    dir: ledger/

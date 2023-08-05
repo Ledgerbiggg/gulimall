@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: admin123
+    url: jdbc:mysql://localhost:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+
+mybatis-plus:
+  type-aliases-package: com.ledger.gulimall.product.entity
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 0 # 逻辑删除
+      logic-not-delete-value: 1 # 逻辑未删除
+
+
+logging:
+  level:
+    com.ledger.gulimall: DEBUG

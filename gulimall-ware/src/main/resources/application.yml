@@ -1,0 +1,13 @@
+
+server:
+  port: 11000
+
+
+mybatis-plus:
+    type-aliases-package: com.ledger.gulimall.ware.entity
+    mapper-locations: classpath:/mapper/**/*.xml
+
+logging:
+  level:
+    com.ledger.gulimall.ware: DEBUG
+
